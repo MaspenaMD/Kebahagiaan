@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.scr {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  border-bottom: 1px black solid;
+}
+.scr:hover {
+  color: white;
+}
+nav {
+  top: 0;
+  background-color: #d50025;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.tab-bar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.tab-bar:hover span {
+  background-color: pink;
+}
+.tab-bar span {
+  width: 30px;
+  height: 4px;
+  display: flex;
+  margin-bottom: 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+#h1 {
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  color: gold;
+}
+.menu-bar {
+  left: -160px;
+  width: 160px;
+  height: 100vh;
+  top: 0px;
+  position: absolute;
+  background-color: wheat;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.fa-close {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  right: 10px;
+  top: 6px;
+}
+.fa-close:hover {
+  color: red;
+  border: 1px white solid ;
+}
+main {
+  position: static;
+  margin: 48px 4px 0 4px;
+  padding: 2px;
+  z-index: -1;
+}
+#gmbr1 {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 6px auto 10px auto;
+}
+#gmbr2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+footer {
+  text-align: right;
+  bottom: 0;
+}  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kebahagiaan MASDONO Project 1</title>
+  <script src="Script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <nav>
+    <div class="tab-bar" onclick="showmn()">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="h1">
+      <h1>MASDONO</h1>
+    </div>
+    <div class="menu-bar">
+      <img id="gmbr1" src="gmbr.jpg">
+      <script>
+        var i = 1,
+            j = 10
+        while (i<=j) {
+          document.write("<div class="+"scr"+" id="+"lk"+i+" onclick="+"klop"+i+"()"+">");
+          document.write("BAB "+i+"</div>");
+         i++;
+        }
+      </script>
+      <i class="fa fa-close" onclick="closemn()"></i>
+    </div>
+  </nav>
+  <main>
+  <center>
+    <h2>Judul</h2>
+    <img id="gmbr2" src="gmbr.jpg">
+  </center>
+  <p>Ini adalah isi paragraf dari <b id="prgrf">Judul</b> :</p><br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid cum, iure autem consequuntur delectus veritatis consequatur, temporibus eos corporis architecto alias quia dignissimos quis sed dolores maiores! Laborum, eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum alias distinctio voluptates iure error modi sunt non dolore laudantium? Consectetur totam consequuntur eligendi quos autem minima exercitationem beatae nam. Vel?</p><br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid cum, iure autem consequuntur delectus veritatis consequatur, temporibus eos corporis architecto alias quia dignissimos quis sed dolores maiores! Laborum, eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum alias distinctio voluptates iure error modi sunt non dolore laudantium? Consectetur totam consequuntur eligendi quos autem minima exercitationem beatae nam. Vel?</p><br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid cum, iure autem consequuntur delectus veritatis consequatur, temporibus eos corporis architecto alias quia dignissimos quis sed dolores maiores! Laborum, eveniet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum alias distinctio voluptates iure error modi sunt non dolore laudantium? Consectetur totam consequuntur eligendi quos autem minima exercitationem beatae nam. Vel?</p>
+  </main><br><br><br>  
+  <footer>
+    <p>&copy; MASDONO <b id="yr"></b></p>
+  </footer>
+</body>
+<script>
+  const d = new Date().getFullYear();
+  document.getElementById("yr").innerHTML = d;
+</script>
+</html>
